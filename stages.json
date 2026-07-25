@@ -1,0 +1,41 @@
+{
+  "sequence_rule": {
+    "violation": "provide_solution occurs before assess_need is complete",
+    "output": "You presented a solution at {timestamp}, before you confirmed what they needed."
+  },
+  "evidence_required": ["timestamp", "verbatim_quote"],
+  "stages": [
+    { "id": "engage", "name": "Engage and build the relationship",
+      "checks": ["Rapport established before any transactional talk",
+                 "Asked how they found you or who referred them",
+                 "Learned something personal about their situation"] },
+    { "id": "qualify", "name": "Qualify the prospect",
+      "checks": ["Motivation: why are they moving, is it forced or optional",
+                 "Timeline: a specific date or trigger, not 'sometime'",
+                 "Financing readiness: pre-approved, cash, or lender named",
+                 "Decision makers: who else is involved and are they present",
+                 "Current situation: own or rent, must they sell first"] },
+    { "id": "assess_need", "name": "Assess and confirm need",
+      "checks": ["Separated must-haves from nice-to-haves",
+                 "Reflected the need back in their own words",
+                 "Got an explicit yes confirming the need is correct"] },
+    { "id": "capabilities_trust", "name": "Present capabilities and confirm trust",
+      "checks": ["Local track record or comparable clients cited specifically",
+                 "Explained their process and what happens next",
+                 "Raised the buyer representation and compensation conversation"] },
+    { "id": "provide_solution", "name": "Provide solution",
+      "checks": ["Recommendation maps explicitly to the confirmed need",
+                 "Addressed the constraints raised during qualify"] },
+    { "id": "confirm_commitment", "name": "Confirm commitment",
+      "checks": ["A specific next step with a date, not 'I'll send some listings'",
+                 "Both parties stated what they will do",
+                 "Agreement or next meeting actually scheduled"] },
+    { "id": "serve", "name": "Serve customer",
+      "checks": ["Follow-up promised with a timeframe",
+                 "Expectations set for cadence of contact"] }
+  ],
+  "constraints": {
+    "never_infer": ["familial status", "race", "religion", "national origin", "disability"],
+    "tone": "Findings are missed opportunities, never mistakes or grades. No scores."
+  }
+}

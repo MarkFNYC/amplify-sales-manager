@@ -1,0 +1,80 @@
+[
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Unknown Speaker",
+    "timestamp": 0.0,
+    "new_text": "Okay, what now?",
+    "transcript": "Okay, what now?",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  },
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Unknown Speaker",
+    "timestamp": 4.82,
+    "new_text": "This is a",
+    "transcript": "This is a",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  },
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Mark Fallows",
+    "timestamp": 9.64,
+    "new_text": "question. I'm looking to buy a home in the Marin area. What would you recommend?",
+    "transcript": "question. I'm looking to buy a home in the Marin area. What would you recommend?",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  },
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Mark Fallows",
+    "timestamp": 33.94,
+    "new_text": "Hi, thanks for reaching out. What's your price range? Maybe 400.",
+    "transcript": "Hi, thanks for reaching out. What's your price range? Maybe 400.",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  },
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Mark Fallows",
+    "timestamp": 68.26,
+    "new_text": "Great, 400,000 gives us options. There's a listing on Court Street, two beds with parking just dropped by 3.95. Perfect for you. I can get us in tomorrow. Maybe. There's no rush on my end, just starting to look. Sure. I've helped a ton of buyers in this area. I'm renting now and the lease ends in September, so I figured I'd get a feel for the market.",
+    "transcript": "Great, 400,000 gives us options. There's a listing on Court Street, two beds with parking just dropped by 3.95. Perfect for you. I can get us in tomorrow. Maybe. There's no rush on my end, just starting to look. Sure. I've helped a ton of buyers in this area. I'm renting now and the lease ends in September, so I figured I'd get a feel for the market.",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  },
+  {
+    "bot_id": "f5befd86-4815-4e68-96f5-79e6519ef114",
+    "speakerName": "Mark Fallows",
+    "timestamp": 97.52,
+    "new_text": "tell you what i'll send you some listings this week keep an eye out in your inbox uh all right thanks i guess",
+    "transcript": "tell you what i'll send you some listings this week keep an eye out in your inbox uh all right thanks i guess",
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-003"
+    }
+  }
+]

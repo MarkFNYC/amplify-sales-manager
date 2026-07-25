@@ -83,6 +83,19 @@ MONTHS = (
 )
 MAPS_TO_NEED = r"must-?haves?|maps to|what you (said|need|asked for)|those needs|exactly those"
 
+# Timeline contradiction: a soft no-rush cue followed later by a hard
+# deadline (lease end, job start, school year, closing date) that was
+# never reconciled on the call.
+NO_RUSH = re.compile(
+    r"no rush|not in a (rush|hurry)|no hurry|just (looking|browsing|starting to look)",
+    re.I,
+)
+HARD_DEADLINE = re.compile(
+    r"lease (ends?|is up|expires|runs out)|(job|position|new role) (starts?|begins)|"
+    r"school year|before school starts|closing date|close on",
+    re.I,
+)
+
 # One rule per check, aligned by index with stages.json — that file remains
 # authoritative for the check text; this table only supplies detection.
 #   {"any": [...]}            met if any segment matches any pattern
@@ -120,8 +133,11 @@ CHECK_RULES = {
     "capabilities_trust": [
         {"any": [r"track record", r"i'?ve helped", r"clients like you", r"closed \d+"]},
         {"any": [r"my process", r"what happens next", r"here'?s how (it|this) works"]},
+        # promote: when missed, this is always a top-level finding, never a
+        # sub-bullet of a missed stage — it's a compliance conversation.
         {"any": [r"buyer representation", r"\bcompensation\b", r"\bcommission\b",
-                 r"how i (get|am) paid"]},
+                 r"how i (get|am) paid"],
+         "promote": True},
     ],
     "provide_solution": [
         {"special": "solution_maps_to_need"},
@@ -296,7 +312,7 @@ def evaluate_checks(segments, stages, confirm_seg):
             )
         results[stage["id"]] = [
             dict(zip(("met", "evidence"), eval_check(rule, segments, order, confirm_seg)),
-                 check=check)
+                 check=check, promoted=rule.get("promote", False))
             for check, rule in zip(stage["checks"], rules)
         ]
     return results
@@ -334,13 +350,52 @@ def build_findings(segments, stages, sequence_rule, check_results, confirm_seg):
                 "quote": seg, "note": note, "subnotes": [],
             })
 
+    # Timeline contradiction: a no-rush cue followed later by a hard deadline.
+    no_rush = next((s for s in segments if NO_RUSH.search(s["text"])), None)
+    if no_rush:
+        deadline = next(
+            (s for s in segments
+             if s["t"] >= no_rush["t"] and HARD_DEADLINE.search(s["text"])),
+            None,
+        )
+        if deadline:
+            findings.append({
+                "kind": "CONTRADICTION", "t": deadline["t"],
+                "headline": (
+                    f"They said no rush at {mmss(no_rush['t'])}, then a hard deadline "
+                    f"surfaced at {mmss(deadline['t'])} — a missed opportunity to "
+                    "reconcile the timeline."
+                ),
+                "quote": no_rush,
+                "quote2": deadline if deadline is not no_rush else None,
+                "note": "Worth pinning down which timeline is real — the deadline usually wins.",
+                "subnotes": [],
+            })
+
+    def check_finding(sid, result, later):
+        quote = later or (segments[-1] if segments else None)
+        return {
+            "kind": "CHECK", "t": quote["t"] if quote else None,
+            "headline": f'{names[sid]} — "{result["check"]}" didn\'t happen. '
+                        "A missed opportunity.",
+            "quote": quote,
+            "note": (
+                f'The conversation moved on to "{names[later["stage"]]}" at '
+                f"{mmss(later['t'])} without it."
+                if later else "The call ended without it."
+            ),
+            "subnotes": [],
+        }
+
     covered = {seg["stage"] for seg in segments}
     for stage in stages:
         sid = stage["id"]
         later = moved_past(segments, stages, sid)
 
-        # Whole stage missed: one stage-level finding subsumes its checks.
+        # Whole stage missed: one stage-level finding subsumes its missed
+        # checks — except promoted ones, which always stand on their own.
         if sid not in covered:
+            missed = [r for r in check_results[sid] if not r["met"]]
             findings.append({
                 "kind": "COVERAGE", "t": later["t"] if later else None,
                 "headline": f'"{names[sid]}" never came up — a missed opportunity.',
@@ -350,27 +405,16 @@ def build_findings(segments, stages, sequence_rule, check_results, confirm_seg):
                     f"{mmss(later['t'])} without it."
                     if later else "The call ended before this stage."
                 ),
-                "subnotes": [f"Missed with it: {r['check']}" for r in check_results[sid]],
+                "subnotes": [f"Missed with it: {r['check']}"
+                             for r in missed if not r["promoted"]],
             })
+            findings.extend(check_finding(sid, r, later)
+                            for r in missed if r["promoted"])
             continue
 
         # Stage covered: each missed check is its own finding.
-        for result in check_results[sid]:
-            if result["met"]:
-                continue
-            quote = later or (segments[-1] if segments else None)
-            findings.append({
-                "kind": "CHECK", "t": quote["t"] if quote else None,
-                "headline": f'{names[sid]} — "{result["check"]}" didn\'t happen. '
-                            "A missed opportunity.",
-                "quote": quote,
-                "note": (
-                    f'The conversation moved on to "{names[later["stage"]]}" at '
-                    f"{mmss(later['t'])} without it."
-                    if later else "The call ended without it."
-                ),
-                "subnotes": [],
-            })
+        findings.extend(check_finding(sid, r, later)
+                        for r in check_results[sid] if not r["met"])
 
     # Headline sequence findings first, then chronological.
     findings.sort(key=lambda f: (f["kind"] != "SEQUENCE", f["t"] is None, f["t"] or 0))
@@ -430,6 +474,8 @@ def render_report(path, events, segments, stages, check_results, findings):
         w(f"  [{f['kind']}] {f['headline']}")
         if f["quote"]:
             w(f'      {mmss(f["quote"]["t"])}  {f["quote"]["speaker"]}: "{f["quote"]["text"]}"')
+        if f.get("quote2"):
+            w(f'      {mmss(f["quote2"]["t"])}  {f["quote2"]["speaker"]}: "{f["quote2"]["text"]}"')
         w(f"      {f['note']}")
         for sub in f["subnotes"]:
             w(f"        · {sub}")

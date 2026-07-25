@@ -1,0 +1,1349 @@
+[
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 3.8,
+    "new_text": "Hi Maya. So, let's get right into it — what's your price range, and are you looking at condos or single-family?",
+    "transcript": "Hi Maya. So, let's get right into it — what's your price range, and are you looking at condos or single-family?",
+    "words": [
+      {
+        "start": 3.8,
+        "end": 4.08,
+        "confidence": 0.99,
+        "word": "hi"
+      },
+      {
+        "start": 4.08,
+        "end": 4.36,
+        "confidence": 0.982,
+        "word": "maya"
+      },
+      {
+        "start": 4.36,
+        "end": 4.64,
+        "confidence": 0.974,
+        "word": "so"
+      },
+      {
+        "start": 4.64,
+        "end": 4.92,
+        "confidence": 0.966,
+        "word": "let's"
+      },
+      {
+        "start": 4.92,
+        "end": 5.2,
+        "confidence": 0.958,
+        "word": "get"
+      },
+      {
+        "start": 5.2,
+        "end": 5.48,
+        "confidence": 0.99,
+        "word": "right"
+      },
+      {
+        "start": 5.48,
+        "end": 5.76,
+        "confidence": 0.982,
+        "word": "into"
+      },
+      {
+        "start": 5.76,
+        "end": 6.04,
+        "confidence": 0.974,
+        "word": "it"
+      },
+      {
+        "start": 6.04,
+        "end": 6.32,
+        "confidence": 0.966,
+        "word": "—"
+      },
+      {
+        "start": 6.32,
+        "end": 6.6,
+        "confidence": 0.958,
+        "word": "what's"
+      },
+      {
+        "start": 6.6,
+        "end": 6.88,
+        "confidence": 0.99,
+        "word": "your"
+      },
+      {
+        "start": 6.88,
+        "end": 7.16,
+        "confidence": 0.982,
+        "word": "price"
+      },
+      {
+        "start": 7.16,
+        "end": 7.44,
+        "confidence": 0.974,
+        "word": "range"
+      },
+      {
+        "start": 7.44,
+        "end": 7.72,
+        "confidence": 0.966,
+        "word": "and"
+      },
+      {
+        "start": 7.72,
+        "end": 8.0,
+        "confidence": 0.958,
+        "word": "are"
+      },
+      {
+        "start": 8.0,
+        "end": 8.28,
+        "confidence": 0.99,
+        "word": "you"
+      },
+      {
+        "start": 8.28,
+        "end": 8.56,
+        "confidence": 0.982,
+        "word": "looking"
+      },
+      {
+        "start": 8.56,
+        "end": 8.84,
+        "confidence": 0.974,
+        "word": "at"
+      },
+      {
+        "start": 8.84,
+        "end": 9.12,
+        "confidence": 0.966,
+        "word": "condos"
+      },
+      {
+        "start": 9.12,
+        "end": 9.4,
+        "confidence": 0.958,
+        "word": "or"
+      },
+      {
+        "start": 9.4,
+        "end": 9.68,
+        "confidence": 0.99,
+        "word": "single-family"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 12.4,
+    "new_text": "Um, sure. Probably condos, somewhere around four hundred.",
+    "transcript": "Um, sure. Probably condos, somewhere around four hundred.",
+    "words": [
+      {
+        "start": 12.4,
+        "end": 12.68,
+        "confidence": 0.99,
+        "word": "um"
+      },
+      {
+        "start": 12.68,
+        "end": 12.96,
+        "confidence": 0.982,
+        "word": "sure"
+      },
+      {
+        "start": 12.96,
+        "end": 13.24,
+        "confidence": 0.974,
+        "word": "probably"
+      },
+      {
+        "start": 13.24,
+        "end": 13.52,
+        "confidence": 0.966,
+        "word": "condos"
+      },
+      {
+        "start": 13.52,
+        "end": 13.8,
+        "confidence": 0.958,
+        "word": "somewhere"
+      },
+      {
+        "start": 13.8,
+        "end": 14.08,
+        "confidence": 0.99,
+        "word": "around"
+      },
+      {
+        "start": 14.08,
+        "end": 14.36,
+        "confidence": 0.982,
+        "word": "four"
+      },
+      {
+        "start": 14.36,
+        "end": 14.64,
+        "confidence": 0.974,
+        "word": "hundred"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 21.0,
+    "new_text": "Great — four hundred gives us some options. What are your must-have features?",
+    "transcript": "Great — four hundred gives us some options. What are your must-have features?",
+    "words": [
+      {
+        "start": 21.0,
+        "end": 21.28,
+        "confidence": 0.99,
+        "word": "great"
+      },
+      {
+        "start": 21.28,
+        "end": 21.56,
+        "confidence": 0.982,
+        "word": "—"
+      },
+      {
+        "start": 21.56,
+        "end": 21.84,
+        "confidence": 0.974,
+        "word": "four"
+      },
+      {
+        "start": 21.84,
+        "end": 22.12,
+        "confidence": 0.966,
+        "word": "hundred"
+      },
+      {
+        "start": 22.12,
+        "end": 22.4,
+        "confidence": 0.958,
+        "word": "gives"
+      },
+      {
+        "start": 22.4,
+        "end": 22.68,
+        "confidence": 0.99,
+        "word": "us"
+      },
+      {
+        "start": 22.68,
+        "end": 22.96,
+        "confidence": 0.982,
+        "word": "some"
+      },
+      {
+        "start": 22.96,
+        "end": 23.24,
+        "confidence": 0.974,
+        "word": "options"
+      },
+      {
+        "start": 23.24,
+        "end": 23.52,
+        "confidence": 0.966,
+        "word": "what"
+      },
+      {
+        "start": 23.52,
+        "end": 23.8,
+        "confidence": 0.958,
+        "word": "are"
+      },
+      {
+        "start": 23.8,
+        "end": 24.08,
+        "confidence": 0.99,
+        "word": "your"
+      },
+      {
+        "start": 24.08,
+        "end": 24.36,
+        "confidence": 0.982,
+        "word": "must-have"
+      },
+      {
+        "start": 24.36,
+        "end": 24.64,
+        "confidence": 0.974,
+        "word": "features"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 28.7,
+    "new_text": "Two bedrooms and parking, ideally. Beyond that I'm pretty flexible.",
+    "transcript": "Two bedrooms and parking, ideally. Beyond that I'm pretty flexible.",
+    "words": [
+      {
+        "start": 28.7,
+        "end": 28.98,
+        "confidence": 0.99,
+        "word": "two"
+      },
+      {
+        "start": 28.98,
+        "end": 29.26,
+        "confidence": 0.982,
+        "word": "bedrooms"
+      },
+      {
+        "start": 29.26,
+        "end": 29.54,
+        "confidence": 0.974,
+        "word": "and"
+      },
+      {
+        "start": 29.54,
+        "end": 29.82,
+        "confidence": 0.966,
+        "word": "parking"
+      },
+      {
+        "start": 29.82,
+        "end": 30.1,
+        "confidence": 0.958,
+        "word": "ideally"
+      },
+      {
+        "start": 30.1,
+        "end": 30.38,
+        "confidence": 0.99,
+        "word": "beyond"
+      },
+      {
+        "start": 30.38,
+        "end": 30.66,
+        "confidence": 0.982,
+        "word": "that"
+      },
+      {
+        "start": 30.66,
+        "end": 30.94,
+        "confidence": 0.974,
+        "word": "i'm"
+      },
+      {
+        "start": 30.94,
+        "end": 31.22,
+        "confidence": 0.966,
+        "word": "pretty"
+      },
+      {
+        "start": 31.22,
+        "end": 31.5,
+        "confidence": 0.958,
+        "word": "flexible"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 36.2,
+    "new_text": "And honestly, there's no rush on my end. Just starting to look.",
+    "transcript": "And honestly, there's no rush on my end. Just starting to look.",
+    "words": [
+      {
+        "start": 36.2,
+        "end": 36.48,
+        "confidence": 0.99,
+        "word": "and"
+      },
+      {
+        "start": 36.48,
+        "end": 36.76,
+        "confidence": 0.982,
+        "word": "honestly"
+      },
+      {
+        "start": 36.76,
+        "end": 37.04,
+        "confidence": 0.974,
+        "word": "there's"
+      },
+      {
+        "start": 37.04,
+        "end": 37.32,
+        "confidence": 0.966,
+        "word": "no"
+      },
+      {
+        "start": 37.32,
+        "end": 37.6,
+        "confidence": 0.958,
+        "word": "rush"
+      },
+      {
+        "start": 37.6,
+        "end": 37.88,
+        "confidence": 0.99,
+        "word": "on"
+      },
+      {
+        "start": 37.88,
+        "end": 38.16,
+        "confidence": 0.982,
+        "word": "my"
+      },
+      {
+        "start": 38.16,
+        "end": 38.44,
+        "confidence": 0.974,
+        "word": "end"
+      },
+      {
+        "start": 38.44,
+        "end": 38.72,
+        "confidence": 0.966,
+        "word": "just"
+      },
+      {
+        "start": 38.72,
+        "end": 39.0,
+        "confidence": 0.958,
+        "word": "starting"
+      },
+      {
+        "start": 39.0,
+        "end": 39.28,
+        "confidence": 0.99,
+        "word": "to"
+      },
+      {
+        "start": 39.28,
+        "end": 39.56,
+        "confidence": 0.982,
+        "word": "look"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 44.3,
+    "new_text": "You know, there's a listing on Court",
+    "transcript": "You know, there's a listing on Court",
+    "words": [
+      {
+        "start": 44.3,
+        "end": 44.58,
+        "confidence": 0.99,
+        "word": "you"
+      },
+      {
+        "start": 44.58,
+        "end": 44.86,
+        "confidence": 0.982,
+        "word": "know"
+      },
+      {
+        "start": 44.86,
+        "end": 45.14,
+        "confidence": 0.974,
+        "word": "there's"
+      },
+      {
+        "start": 45.14,
+        "end": 45.42,
+        "confidence": 0.966,
+        "word": "a"
+      },
+      {
+        "start": 45.42,
+        "end": 45.7,
+        "confidence": 0.958,
+        "word": "listing"
+      },
+      {
+        "start": 45.7,
+        "end": 45.98,
+        "confidence": 0.99,
+        "word": "on"
+      },
+      {
+        "start": 45.98,
+        "end": 46.26,
+        "confidence": 0.982,
+        "word": "court"
+      }
+    ],
+    "end_of_turn": false,
+    "word_is_final": false,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 45.1,
+    "new_text": "You know, there's a listing on Court Street I can show you — two beds with deeded parking, and it just dropped to three ninety-five.",
+    "transcript": "You know, there's a listing on Court Street I can show you — two beds with deeded parking, and it just dropped to three ninety-five.",
+    "words": [
+      {
+        "start": 45.1,
+        "end": 45.38,
+        "confidence": 0.99,
+        "word": "you"
+      },
+      {
+        "start": 45.38,
+        "end": 45.66,
+        "confidence": 0.982,
+        "word": "know"
+      },
+      {
+        "start": 45.66,
+        "end": 45.94,
+        "confidence": 0.974,
+        "word": "there's"
+      },
+      {
+        "start": 45.94,
+        "end": 46.22,
+        "confidence": 0.966,
+        "word": "a"
+      },
+      {
+        "start": 46.22,
+        "end": 46.5,
+        "confidence": 0.958,
+        "word": "listing"
+      },
+      {
+        "start": 46.5,
+        "end": 46.78,
+        "confidence": 0.99,
+        "word": "on"
+      },
+      {
+        "start": 46.78,
+        "end": 47.06,
+        "confidence": 0.982,
+        "word": "court"
+      },
+      {
+        "start": 47.06,
+        "end": 47.34,
+        "confidence": 0.974,
+        "word": "street"
+      },
+      {
+        "start": 47.34,
+        "end": 47.62,
+        "confidence": 0.966,
+        "word": "i"
+      },
+      {
+        "start": 47.62,
+        "end": 47.9,
+        "confidence": 0.958,
+        "word": "can"
+      },
+      {
+        "start": 47.9,
+        "end": 48.18,
+        "confidence": 0.99,
+        "word": "show"
+      },
+      {
+        "start": 48.18,
+        "end": 48.46,
+        "confidence": 0.982,
+        "word": "you"
+      },
+      {
+        "start": 48.46,
+        "end": 48.74,
+        "confidence": 0.974,
+        "word": "—"
+      },
+      {
+        "start": 48.74,
+        "end": 49.02,
+        "confidence": 0.966,
+        "word": "two"
+      },
+      {
+        "start": 49.02,
+        "end": 49.3,
+        "confidence": 0.958,
+        "word": "beds"
+      },
+      {
+        "start": 49.3,
+        "end": 49.58,
+        "confidence": 0.99,
+        "word": "with"
+      },
+      {
+        "start": 49.58,
+        "end": 49.86,
+        "confidence": 0.982,
+        "word": "deeded"
+      },
+      {
+        "start": 49.86,
+        "end": 50.14,
+        "confidence": 0.974,
+        "word": "parking"
+      },
+      {
+        "start": 50.14,
+        "end": 50.42,
+        "confidence": 0.966,
+        "word": "and"
+      },
+      {
+        "start": 50.42,
+        "end": 50.7,
+        "confidence": 0.958,
+        "word": "it"
+      },
+      {
+        "start": 50.7,
+        "end": 50.98,
+        "confidence": 0.99,
+        "word": "just"
+      },
+      {
+        "start": 50.98,
+        "end": 51.26,
+        "confidence": 0.982,
+        "word": "dropped"
+      },
+      {
+        "start": 51.26,
+        "end": 51.54,
+        "confidence": 0.974,
+        "word": "to"
+      },
+      {
+        "start": 51.54,
+        "end": 51.82,
+        "confidence": 0.966,
+        "word": "three"
+      },
+      {
+        "start": 51.82,
+        "end": 52.1,
+        "confidence": 0.958,
+        "word": "ninety-five"
+      }
+    ],
+    "end_of_turn": false,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 52.3,
+    "new_text": "Honestly the perfect place for you. I can get us in tomorrow.",
+    "transcript": "You know, there's a listing on Court Street I can show you — two beds with deeded parking, and it just dropped to three ninety-five. Honestly the perfect place for you. I can get us in tomorrow.",
+    "words": [
+      {
+        "start": 52.3,
+        "end": 52.58,
+        "confidence": 0.99,
+        "word": "honestly"
+      },
+      {
+        "start": 52.58,
+        "end": 52.86,
+        "confidence": 0.982,
+        "word": "the"
+      },
+      {
+        "start": 52.86,
+        "end": 53.14,
+        "confidence": 0.974,
+        "word": "perfect"
+      },
+      {
+        "start": 53.14,
+        "end": 53.42,
+        "confidence": 0.966,
+        "word": "place"
+      },
+      {
+        "start": 53.42,
+        "end": 53.7,
+        "confidence": 0.958,
+        "word": "for"
+      },
+      {
+        "start": 53.7,
+        "end": 53.98,
+        "confidence": 0.99,
+        "word": "you"
+      },
+      {
+        "start": 53.98,
+        "end": 54.26,
+        "confidence": 0.982,
+        "word": "i"
+      },
+      {
+        "start": 54.26,
+        "end": 54.54,
+        "confidence": 0.974,
+        "word": "can"
+      },
+      {
+        "start": 54.54,
+        "end": 54.82,
+        "confidence": 0.966,
+        "word": "get"
+      },
+      {
+        "start": 54.82,
+        "end": 55.1,
+        "confidence": 0.958,
+        "word": "us"
+      },
+      {
+        "start": 55.1,
+        "end": 55.38,
+        "confidence": 0.99,
+        "word": "in"
+      },
+      {
+        "start": 55.38,
+        "end": 55.66,
+        "confidence": 0.982,
+        "word": "tomorrow"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 58.9,
+    "new_text": "Maybe... like I said, no rush. I'm renting right now and my lease ends in September, so I figured I'd get a feel for the market.",
+    "transcript": "Maybe... like I said, no rush. I'm renting right now and my lease ends in September, so I figured I'd get a feel for the market.",
+    "words": [
+      {
+        "start": 58.9,
+        "end": 59.18,
+        "confidence": 0.99,
+        "word": "maybe"
+      },
+      {
+        "start": 59.18,
+        "end": 59.46,
+        "confidence": 0.982,
+        "word": "like"
+      },
+      {
+        "start": 59.46,
+        "end": 59.74,
+        "confidence": 0.974,
+        "word": "i"
+      },
+      {
+        "start": 59.74,
+        "end": 60.02,
+        "confidence": 0.966,
+        "word": "said"
+      },
+      {
+        "start": 60.02,
+        "end": 60.3,
+        "confidence": 0.958,
+        "word": "no"
+      },
+      {
+        "start": 60.3,
+        "end": 60.58,
+        "confidence": 0.99,
+        "word": "rush"
+      },
+      {
+        "start": 60.58,
+        "end": 60.86,
+        "confidence": 0.982,
+        "word": "i'm"
+      },
+      {
+        "start": 60.86,
+        "end": 61.14,
+        "confidence": 0.974,
+        "word": "renting"
+      },
+      {
+        "start": 61.14,
+        "end": 61.42,
+        "confidence": 0.966,
+        "word": "right"
+      },
+      {
+        "start": 61.42,
+        "end": 61.7,
+        "confidence": 0.958,
+        "word": "now"
+      },
+      {
+        "start": 61.7,
+        "end": 61.98,
+        "confidence": 0.99,
+        "word": "and"
+      },
+      {
+        "start": 61.98,
+        "end": 62.26,
+        "confidence": 0.982,
+        "word": "my"
+      },
+      {
+        "start": 62.26,
+        "end": 62.54,
+        "confidence": 0.974,
+        "word": "lease"
+      },
+      {
+        "start": 62.54,
+        "end": 62.82,
+        "confidence": 0.966,
+        "word": "ends"
+      },
+      {
+        "start": 62.82,
+        "end": 63.1,
+        "confidence": 0.958,
+        "word": "in"
+      },
+      {
+        "start": 63.1,
+        "end": 63.38,
+        "confidence": 0.99,
+        "word": "september"
+      },
+      {
+        "start": 63.38,
+        "end": 63.66,
+        "confidence": 0.982,
+        "word": "so"
+      },
+      {
+        "start": 63.66,
+        "end": 63.94,
+        "confidence": 0.974,
+        "word": "i"
+      },
+      {
+        "start": 63.94,
+        "end": 64.22,
+        "confidence": 0.966,
+        "word": "figured"
+      },
+      {
+        "start": 64.22,
+        "end": 64.5,
+        "confidence": 0.958,
+        "word": "i'd"
+      },
+      {
+        "start": 64.5,
+        "end": 64.78,
+        "confidence": 0.99,
+        "word": "get"
+      },
+      {
+        "start": 64.78,
+        "end": 65.06,
+        "confidence": 0.982,
+        "word": "a"
+      },
+      {
+        "start": 65.06,
+        "end": 65.34,
+        "confidence": 0.974,
+        "word": "feel"
+      },
+      {
+        "start": 65.34,
+        "end": 65.62,
+        "confidence": 0.966,
+        "word": "for"
+      },
+      {
+        "start": 65.62,
+        "end": 65.9,
+        "confidence": 0.958,
+        "word": "the"
+      },
+      {
+        "start": 65.9,
+        "end": 66.18,
+        "confidence": 0.99,
+        "word": "market"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 72.5,
+    "new_text": "Sure, no pressure at all. But Court Street won't last, trust me — I've helped a ton of buyers around here.",
+    "transcript": "Sure, no pressure at all. But Court Street won't last, trust me — I've helped a ton of buyers around here.",
+    "words": [
+      {
+        "start": 72.5,
+        "end": 72.78,
+        "confidence": 0.99,
+        "word": "sure"
+      },
+      {
+        "start": 72.78,
+        "end": 73.06,
+        "confidence": 0.982,
+        "word": "no"
+      },
+      {
+        "start": 73.06,
+        "end": 73.34,
+        "confidence": 0.974,
+        "word": "pressure"
+      },
+      {
+        "start": 73.34,
+        "end": 73.62,
+        "confidence": 0.966,
+        "word": "at"
+      },
+      {
+        "start": 73.62,
+        "end": 73.9,
+        "confidence": 0.958,
+        "word": "all"
+      },
+      {
+        "start": 73.9,
+        "end": 74.18,
+        "confidence": 0.99,
+        "word": "but"
+      },
+      {
+        "start": 74.18,
+        "end": 74.46,
+        "confidence": 0.982,
+        "word": "court"
+      },
+      {
+        "start": 74.46,
+        "end": 74.74,
+        "confidence": 0.974,
+        "word": "street"
+      },
+      {
+        "start": 74.74,
+        "end": 75.02,
+        "confidence": 0.966,
+        "word": "won't"
+      },
+      {
+        "start": 75.02,
+        "end": 75.3,
+        "confidence": 0.958,
+        "word": "last"
+      },
+      {
+        "start": 75.3,
+        "end": 75.58,
+        "confidence": 0.99,
+        "word": "trust"
+      },
+      {
+        "start": 75.58,
+        "end": 75.86,
+        "confidence": 0.982,
+        "word": "me"
+      },
+      {
+        "start": 75.86,
+        "end": 76.14,
+        "confidence": 0.974,
+        "word": "—"
+      },
+      {
+        "start": 76.14,
+        "end": 76.42,
+        "confidence": 0.966,
+        "word": "i've"
+      },
+      {
+        "start": 76.42,
+        "end": 76.7,
+        "confidence": 0.958,
+        "word": "helped"
+      },
+      {
+        "start": 76.7,
+        "end": 76.98,
+        "confidence": 0.99,
+        "word": "a"
+      },
+      {
+        "start": 76.98,
+        "end": 77.26,
+        "confidence": 0.982,
+        "word": "ton"
+      },
+      {
+        "start": 77.26,
+        "end": 77.54,
+        "confidence": 0.974,
+        "word": "of"
+      },
+      {
+        "start": 77.54,
+        "end": 77.82,
+        "confidence": 0.966,
+        "word": "buyers"
+      },
+      {
+        "start": 77.82,
+        "end": 78.1,
+        "confidence": 0.958,
+        "word": "around"
+      },
+      {
+        "start": 78.1,
+        "end": 78.38,
+        "confidence": 0.99,
+        "word": "here"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 84.0,
+    "new_text": "Okay. Maybe I could see it at some point.",
+    "transcript": "Okay. Maybe I could see it at some point.",
+    "words": [
+      {
+        "start": 84.0,
+        "end": 84.28,
+        "confidence": 0.99,
+        "word": "okay"
+      },
+      {
+        "start": 84.28,
+        "end": 84.56,
+        "confidence": 0.982,
+        "word": "maybe"
+      },
+      {
+        "start": 84.56,
+        "end": 84.84,
+        "confidence": 0.974,
+        "word": "i"
+      },
+      {
+        "start": 84.84,
+        "end": 85.12,
+        "confidence": 0.966,
+        "word": "could"
+      },
+      {
+        "start": 85.12,
+        "end": 85.4,
+        "confidence": 0.958,
+        "word": "see"
+      },
+      {
+        "start": 85.4,
+        "end": 85.68,
+        "confidence": 0.99,
+        "word": "it"
+      },
+      {
+        "start": 85.68,
+        "end": 85.96,
+        "confidence": 0.982,
+        "word": "at"
+      },
+      {
+        "start": 85.96,
+        "end": 86.24,
+        "confidence": 0.974,
+        "word": "some"
+      },
+      {
+        "start": 86.24,
+        "end": 86.52,
+        "confidence": 0.966,
+        "word": "point"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Jordan Avery",
+    "timestamp": 93.6,
+    "new_text": "Tell you what — I'll send you some listings this week, Court Street and a few similar ones. Keep an eye on your inbox.",
+    "transcript": "Tell you what — I'll send you some listings this week, Court Street and a few similar ones. Keep an eye on your inbox.",
+    "words": [
+      {
+        "start": 93.6,
+        "end": 93.88,
+        "confidence": 0.99,
+        "word": "tell"
+      },
+      {
+        "start": 93.88,
+        "end": 94.16,
+        "confidence": 0.982,
+        "word": "you"
+      },
+      {
+        "start": 94.16,
+        "end": 94.44,
+        "confidence": 0.974,
+        "word": "what"
+      },
+      {
+        "start": 94.44,
+        "end": 94.72,
+        "confidence": 0.966,
+        "word": "—"
+      },
+      {
+        "start": 94.72,
+        "end": 95.0,
+        "confidence": 0.958,
+        "word": "i'll"
+      },
+      {
+        "start": 95.0,
+        "end": 95.28,
+        "confidence": 0.99,
+        "word": "send"
+      },
+      {
+        "start": 95.28,
+        "end": 95.56,
+        "confidence": 0.982,
+        "word": "you"
+      },
+      {
+        "start": 95.56,
+        "end": 95.84,
+        "confidence": 0.974,
+        "word": "some"
+      },
+      {
+        "start": 95.84,
+        "end": 96.12,
+        "confidence": 0.966,
+        "word": "listings"
+      },
+      {
+        "start": 96.12,
+        "end": 96.4,
+        "confidence": 0.958,
+        "word": "this"
+      },
+      {
+        "start": 96.4,
+        "end": 96.68,
+        "confidence": 0.99,
+        "word": "week"
+      },
+      {
+        "start": 96.68,
+        "end": 96.96,
+        "confidence": 0.982,
+        "word": "court"
+      },
+      {
+        "start": 96.96,
+        "end": 97.24,
+        "confidence": 0.974,
+        "word": "street"
+      },
+      {
+        "start": 97.24,
+        "end": 97.52,
+        "confidence": 0.966,
+        "word": "and"
+      },
+      {
+        "start": 97.52,
+        "end": 97.8,
+        "confidence": 0.958,
+        "word": "a"
+      },
+      {
+        "start": 97.8,
+        "end": 98.08,
+        "confidence": 0.99,
+        "word": "few"
+      },
+      {
+        "start": 98.08,
+        "end": 98.36,
+        "confidence": 0.982,
+        "word": "similar"
+      },
+      {
+        "start": 98.36,
+        "end": 98.64,
+        "confidence": 0.974,
+        "word": "ones"
+      },
+      {
+        "start": 98.64,
+        "end": 98.92,
+        "confidence": 0.966,
+        "word": "keep"
+      },
+      {
+        "start": 98.92,
+        "end": 99.2,
+        "confidence": 0.958,
+        "word": "an"
+      },
+      {
+        "start": 99.2,
+        "end": 99.48,
+        "confidence": 0.99,
+        "word": "eye"
+      },
+      {
+        "start": 99.48,
+        "end": 99.76,
+        "confidence": 0.982,
+        "word": "on"
+      },
+      {
+        "start": 99.76,
+        "end": 100.04,
+        "confidence": 0.974,
+        "word": "your"
+      },
+      {
+        "start": 100.04,
+        "end": 100.32,
+        "confidence": 0.966,
+        "word": "inbox"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  },
+  {
+    "bot_id": "bot_sample_replay_002",
+    "speakerName": "Maya Chen",
+    "timestamp": 103.2,
+    "new_text": "Alright. Thanks, I guess.",
+    "transcript": "Alright. Thanks, I guess.",
+    "words": [
+      {
+        "start": 103.2,
+        "end": 103.48,
+        "confidence": 0.99,
+        "word": "alright"
+      },
+      {
+        "start": 103.48,
+        "end": 103.76,
+        "confidence": 0.982,
+        "word": "thanks"
+      },
+      {
+        "start": 103.76,
+        "end": 104.04,
+        "confidence": 0.974,
+        "word": "i"
+      },
+      {
+        "start": 104.04,
+        "end": 104.32,
+        "confidence": 0.966,
+        "word": "guess"
+      }
+    ],
+    "end_of_turn": true,
+    "word_is_final": true,
+    "custom_attributes": {
+      "rep_identifier": "rep_a",
+      "session": "call-002"
+    }
+  }
+]

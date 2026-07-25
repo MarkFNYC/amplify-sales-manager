@@ -5,3 +5,4 @@ __pycache__/
 venv/
 .venv/
 ngrok*
+.DS_Store
